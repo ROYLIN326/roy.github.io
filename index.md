@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ROYLIN326/roy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ROYLIN326/roy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<title>Roy's background</title>
+		<link href="https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap" rel="stylesheet">   <!--google免費字庫-->
+		<style>body{font-family: 'Just Another Hand', cursive; font-size: 18px; background-image: url("/images/img05.jpg");}</style>   <!--字體; 背景圖片-->
+		<style type="text/css">a{color:black; text-decoration:none;} a:hover{color:grey; text-decoration:none;}</style>    <!--文字互動效果-->
+	</head>
+	<body style="margin:auto; width: 78%;">                                     <!--置中; 寬度比率-->
+		<div>
+			<div style="height: 40px"></div>
+		</div>
+		<div>
+		    <header>
+			    <a href="/index2.html" 
+			       style="display: inline-block; font-size:65px;">Mr.roylin</a>    
+			    <nav style="width: 32%; display: inline-block;"></nav>              <!--與下段文字距離-->
+			    <a href="/resume.html" 
+			       style="text-decoration:none; font-size:50px">resume</a>
+		     	<nav style="width: 5%; display: inline-block;"></nav>
+			    <a href="thesis.html" 
+			       style="text-decoration:none; font-size:50px">thesis</a>
+			       <nav style="width: 5%; display: inline-block;"></nav>
+		        <a href="/project.html" 
+			       style="text-decoration:none; font-size:50px">project</a>
+			    <nav style="width: 5%; display: inline-block;"></nav>
+			    <a href="/license.html" 
+			       style="text-decoration:none;  font-size:50px">skill & license</a>
+			    <div style="height: 30px"></div>
+			    <img src="/images/banner.jpg" style="box-shadow:3px 3px 12px rgb(0, 0, 0); border-radius: 8px 8px 8px 8px; width: 100%;">
+		    </header>
+			<!-- <div id="Main">Main: Sidebar + Content</div> -->
+			<main style="padding-bottom: 100px;">
+				<article>
+					<section>
+					</section>
+				</article>		
+			</main>
+		    <footer style="height: 100px; position: relative; margin-top: -100px;">
+				Updated on <time class="time">2019-09-03 22:32</time>
+		    </footer>
+	    </div>
+	</body>
+</html>
